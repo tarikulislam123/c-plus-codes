@@ -1,0 +1,73 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int book[] = {1,2,3,4};
+
+  for(int i=0; i<4; i++)
+  {
+      cout<<book[i]<<endl;
+  }
+
+}
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+
+  int bookPrice[5];
+  for(int i=0; i<5; i++)
+  {
+      cin>>bookPrice[i];
+
+  }
+
+  cout<<"First Book: "<<bookPrice[0]*2<<endl;
+  cout<<"Second Book: "<<bookPrice[1]*3<<endl;
+  cout<<"Third Book: "<<bookPrice[2]*5<<endl;
+  cout<<"Fourth Book: "<<bookPrice[3]*7<<endl;
+  cout<<"Fifth Book: "<<bookPrice[4]*9<<endl;
+
+
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+
+  int bookPrice[5];
+  for(int i=0; i<5; i++)
+  {
+      cin>>bookPrice[i];
+      bookPrice[i] = bookPrice[i] - 2;
+
+  }
+
+    for(int i=0; i<5; i++)
+  {
+      cout<<bookPrice[i]<<" ";
+
+  }
+
+
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  string book[] = {"blue","red","green","violet"};
+
+  for(int i=0; i<4; i++)
+  {
+      cout<<book[i]<<endl;
+  }
+
+}
+
