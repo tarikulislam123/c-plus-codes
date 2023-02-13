@@ -1,0 +1,72 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5];
+
+    cin>>marks[0];
+    cin>>marks[1];
+    cin>>marks[2];
+    cin>>marks[3];
+    cin>>marks[4];
+
+    cout<<"Elements are: ";
+
+    for(int i=0; i<5; i++)
+    {
+        cout<<marks[i]<<" ";
+    }
+
+
+
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5];
+
+   for(int i=0; i<5; i++)  //input
+   {
+     cin>>marks[i];
+   }
+
+
+    cout<<"Elements are: ";
+
+    for(int i=0; i<5; i++)  //output
+    {
+        cout<<marks[i]<<" ";
+    }
+
+
+
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5];
+
+   for(int i=0; i<5; i++)
+   {
+    cout<<"Marks for student "<<i+1<<" = "; //i dile 0 print kore, ami counting ta 1 theke korte chaisi not 0 theke
+    cin>>marks[i];
+   }
+
+
+    cout<<"Elements are: ";
+
+    for(int i=0; i<5; i++)
+    {
+        cout<<marks[i]<<" ";
+    }
+
+
+
+}
+

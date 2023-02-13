@@ -1,0 +1,65 @@
+An array is a collection of variables of same type
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5];  //array declaration
+
+   marks[0] = 11; //array initialization
+   marks[1] = 33;
+   marks[2] = 45;
+   marks[3] = 55;
+   marks[4] = 85;
+
+   cout<<marks[0]<<" ";
+   cout<<marks[1]<<" ";
+   cout<<marks[2]<<" ";
+   cout<<marks[3]<<" ";
+   cout<<marks[4]<<" ";
+
+
+
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Directly Array er value iniatialize kora jay
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5] = {11,33,55,45,85};  //array declaration
+
+
+
+   cout<<marks[0]<<" ";
+   cout<<marks[1]<<" ";
+   cout<<marks[2]<<" ";
+   cout<<marks[3]<<" ";
+   cout<<marks[4]<<" ";
+
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+Since index number er change hocche.So amra  ekta loop madhhome kaaj ta korte pari
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   int marks[5] = {11,33,55,45,85};  //array declaration
+
+
+
+  for(int i=0; i<5; i++)
+  {
+      cout<<marks[i]<<" ";
+  }
+
+
+
+}
+
+
+
