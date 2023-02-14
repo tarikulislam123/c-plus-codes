@@ -1,0 +1,148 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int arr[5],maxi,mini;
+  for(int i=0; i<5; i++)
+  {
+      cout<<"Enter "<<i+1<<" Number: ";
+      cin>>arr[i];
+  }
+
+  maxi = arr[0];
+
+  for(int i=1; i<5; i++)
+  {
+      if(maxi<arr[i])
+      {
+          maxi = arr[i];
+      }
+  }
+  cout<<"Maximum Value is: "<<maxi<<endl;
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int arr[5],maxi,mini;
+  for(int i=0; i<5; i++)
+  {
+      cout<<"Enter "<<i+1<<" Number: ";
+      cin>>arr[i];
+  }
+
+  maxi = mini = arr[0];
+
+  for(int i=0; i<5; i++)
+  {
+      if(maxi<arr[i])
+      {
+          maxi = arr[i];
+      }
+  }
+
+   for(int i=1; i<5; i++)
+  {
+      if(mini>arr[i])
+      {
+          mini = arr[i];
+      }
+  }
+  cout<<"Maximum Value is: "<<maxi<<endl;
+  cout<<"Minimum Value is: "<<mini<<endl;
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+ //5 sized 1 ta array neba.Then arekta input neban "Item".Jodi input ta array er sathe mile jay print korba "Found" otherwise "Not Found"//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+ int arr[5];
+ for(int i=0; i<5; i++)
+ {
+     cin>>arr[i];
+ }
+
+ cout<<"Enter Item: ";
+ int item;
+ cin>>item;
+
+ for(int i=0; i<5; i++)
+ {
+     if(arr[i] == item)
+     {
+         cout<<"Found";
+         break;
+     }
+     else
+     {
+        cout<<"Not Found";
+        break;
+     }
+ }
+
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+ int avg[5];
+ int sum = 0;
+
+ for(int i=0; i<5; i++)
+ {
+     cin>>avg[i];
+ }
+
+ for(int i=0; i<5; i++)
+ {
+     sum = sum + avg[i];
+ }
+
+ cout<<"Sum: "<<sum<<endl;
+
+ cout<<"Average: "<<(float)sum/5; //Average always decimal ee ashe
+
+
+}
+
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[5];
+    for(int i=0; i<5; i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"Enter item: ";
+    int item;
+    cin>>item;
+
+    int mx = a[0];
+    for(int i=1; i<5; i++)
+    {
+        if(mx < a[i])
+        {
+            mx = a[i];
+        }
+
+    }
+    if(item > mx)
+    {
+        cout<<"Item is maximum "<<endl;
+    }
+
+}
+
+
+
+
