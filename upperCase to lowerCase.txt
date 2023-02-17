@@ -1,0 +1,73 @@
+//Lower to Upper letter using library function
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char lower,upper;
+    cout<<"Enter any lower case letter: ";
+    cin>>lower;
+
+    upper = toupper(lower);
+    cout<<"Upper Case letter = "<<upper;
+
+
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+//Upper to Lower letter using library function
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char lower,upper;
+    cout<<"Enter any Upper  case letter: ";
+    cin>>upper;
+
+    lower = toupper(upper);
+    cout<<"Lower Case letter = "<<lower;
+
+
+}
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+EXTRA
+//small letter a er ascii value = 97
+//capital letter a er ascii value = 65
+//small letter a theke capital letter A er difference = 32
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char lower;
+    cout<<"Enter any lower case letter: ";
+    cin>>lower;
+
+
+    cout<<"The Upper Case letter = "<<lower - 32;
+
+
+}
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char upper;
+    cout<<"Enter any upper case letter: ";
+    cin>>upper;
+
+
+    cout<<"The Lower Case letter = "<<(upper + 32);
+
+
+}
+
+
