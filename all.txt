@@ -111,6 +111,44 @@ int num;
 
 }
 ______________________________________________________________________________________________________________________________
+//Find out Absolute Value
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cin>>num;
+
+    if(num < 0)
+    
+        cout<<(-num);
+    
+    else
+    
+        cout<<num;
+    
+}
+
+_______________________________________________________________________________________________________________________________
+//datatype er memory return kore in bytes
+#include <iostream>
+using namespace std;
+int main()
+{
+   int a;
+   char ch;
+   char name[20];
+
+   cout<<sizeof(a)<<endl;
+
+   cout<<sizeof(ch)<<endl;
+
+   cout<<sizeof(name);
+
+}
+
+
+
 
 
 
