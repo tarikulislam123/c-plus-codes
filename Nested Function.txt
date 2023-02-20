@@ -1,0 +1,102 @@
+//Nested Function: 1 ta function theke arekta function e call kora
+
+#include <iostream>
+using namespace std;
+
+void print(int x)
+{
+    cout<<x;
+}
+
+void add(int x, int y)
+{
+    int c = x + y;
+    print(c);
+}
+
+
+
+
+int main()
+{
+    add(6,9);
+}
+_______________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+
+int sub(int x)
+{
+    int y = x - 10;
+    return y;
+}
+
+int calculate(int a, int b)
+{
+    int c = a +b;
+    return sub(c);
+}
+
+
+
+
+int main()
+{
+    int z = calculate(6,9);
+    cout<<z;
+}
+_______________________________________________________________________________________________________________________________
+#include <iostream>
+using namespace std;
+
+int mul(int m)
+{
+    int n = m * 4;
+    return n;
+}
+
+int sub(int x)
+{
+    int y = x - 10;
+    return mul(y);
+}
+
+int calculate(int a, int b)
+{
+    int c = a +b;
+    return sub(c);
+}
+
+int main()
+{
+    int z = calculate(6,9);
+    cout<<z;
+}
+_______________________________________________________________________________________________________________________________
+//age shudhy function er kaaj ghotbe then reverse process e (+) hobe
+#include <iostream>
+using namespace std;
+
+int mul(int m)
+{
+    int n = m * 4;
+    return n;
+}
+
+int sub(int x)
+{
+    int y = x - 10;
+    return mul(y) + 2;
+}
+
+int calculate(int a, int b)
+{
+    int c = a +b;
+    return sub(c) + 1;
+}
+
+int main()
+{
+    int z = calculate(6,9);
+    cout<<z;
+}
