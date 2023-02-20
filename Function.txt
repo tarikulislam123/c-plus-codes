@@ -116,6 +116,36 @@ int main()
 
 _______________________________________________________________________________________________________________________________
 
+//Array size input neba,size according elements guli add korba function er maddhome...
+#include <iostream>
+using namespace std;
+sumOfArray(int x[], int y) //int x[] diye array receive kore and int y size receive kore
+{
+     int sum = 0;
+     for(int i=0; i<y; i++)
+     {
+        sum = sum + x[i];
+     }
+     return sum;
+
+}
+
+int main()
+{
+  int n;
+  cin>>n;
+
+  int arr[n];
+  cout<<"Enter your input: ";
+
+ for(int i=0; i<n; i++)
+ {
+    cin>>arr[i];
+ }
+
+ cout<<"Results: "<<sumOfArray(arr,n);
+
+}
 
 
 
