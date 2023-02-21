@@ -145,6 +145,55 @@ int main()
  cout<<"Results: "<<sumOfArray(arr,n);
 
 }
+_______________________________________________________________________________________________________________________________
+Factorial of 0 : 1
+Factorial of 1 : 1
+Factorial of 2 : 2
+Factorial of 3 : 6
+Factorial of 4 : 24
+Factorial of 5 :120
+Factorial of 6 : 720
+
+#include <iostream>
+using namespace std;
+
+int factorial(int x)
+{
+    if(x == 0){
+        return 1;}
+
+    int fact = 1;
+
+    for(int i=1; i <= x; i++)
+    {
+      fact = fact * i;
+    }
+    return fact;
+
+}
+
+ void printArray(int x[],int y)
+{
+     for(int i=0; i < y; i++)
+     {
+         cout<<"Factorial of 5"<<i<<" : "<<x[i]<<endl;
+     }
+
+}
+int main()
+{
+  int n;
+  cin>>n;
+  int a[n+1];
+  for(int i=0; i <= n; i++)
+  {
+      a[i] = factorial(i);
+  }
+
+  printArray(a,n+1);
+
+}
+
 
 
 
