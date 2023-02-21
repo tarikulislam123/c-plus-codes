@@ -68,7 +68,6 @@ int main()
 
 }
 _______________________________________________________________________________________________________________________________
-
 #include <iostream>
 using namespace std;
 
@@ -115,7 +114,7 @@ int main()
 
 
 _______________________________________________________________________________________________________________________________
-
+//Array Passing using function
 //Array size input neba,size according elements guli add korba function er maddhome...
 #include <iostream>
 using namespace std;
